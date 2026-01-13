@@ -37,7 +37,7 @@ In addition to what’s in Anaconda, this lecture will need the following librar
 
 This lecture describes likelihood ratio processes and some of their uses.
 
-We'll study the same setting that is also used in {doc}`this lecture on exchangeability <exchangeable>`.
+We'll study the same setting that is also used in {doc}`this lecture on exchangeability <intermediate:exchangeable>`.
 
 Among the things that we'll learn are
 
@@ -45,7 +45,7 @@ Among the things that we'll learn are
 * How a **receiver operator characteristic curve** summarizes information about a false alarm probability and power in frequentist hypothesis testing
 * How a statistician can combine frequentist probabilities of type I and type II errors to form posterior probabilities of mistakes in a model selection or in an individual-classification problem
 * How to use a Kullback-Leibler divergence to quantify the difference between two probability distributions with the same support 
-* How during World War II the United States Navy devised a decision rule for doing quality control on lots of ammunition, a topic that sets the stage for {doc}`this lecture <wald_friedman>`
+* How during World War II the United States Navy devised a decision rule for doing quality control on lots of ammunition, a topic that sets the stage for {doc}`this lecture <intermediate:wald_friedman>`
 * A peculiar property of likelihood ratio processes
 
 
@@ -301,7 +301,7 @@ The reason is that the distribution of $L\left(w^{t}\right)$ is extremely skewed
 
 Because the probability density in the right tail is close to $0$, it just takes too much computer time to sample enough points from the right tail.
 
-We explain the problem in more detail in {doc}`this lecture <imp_sample>`.
+We explain the problem in more detail in {doc}`this lecture <intermediate:imp_sample>`.
 
 There we describe an alternative way to compute the mean of a likelihood ratio by computing the mean of a _different_ random variable by sampling from a _different_ probability distribution.
 
@@ -659,7 +659,7 @@ The United States Navy evidently used a procedure like this to select a sample s
 control tests during World War II.
 
 A Navy Captain who had been ordered to perform tests of this kind had doubts about it that he
-presented to Milton Friedman, as we describe in {doc}`this lecture <wald_friedman>`.
+presented to Milton Friedman, as we describe in {doc}`this lecture <intermediate:wald_friedman>`.
 
 (llr_h)=
 ### A third distribution $h$
@@ -920,7 +920,7 @@ def protocol_2(π_minus_1, T, N=1000, F_params=(1, 1), G_params=(3, 1.2)):
 ```
 
 **Remark:** Under timing protocol 2, the $\{w_t\}_{t=1}^T$ is a sequence of IID draws from $h(w)$. Under timing protocol 1, the $\{w_t\}_{t=1}^T$ is 
-not IID. It is **conditionally IID** -- meaning that with probability $\pi_{-1}$ it is a sequence of IID draws from $f(w)$ and with probability $1-\pi_{-1}$ it is a sequence of IID draws from $g(w)$. For more about this, see {doc}`this lecture about exchangeability <exchangeable>`.
+not IID. It is **conditionally IID** -- meaning that with probability $\pi_{-1}$ it is a sequence of IID draws from $f(w)$ and with probability $1-\pi_{-1}$ it is a sequence of IID draws from $g(w)$. For more about this, see {doc}`this lecture about exchangeability <intermediate:exchangeable>`.
 
 We again deploy a **likelihood ratio process** with time $t$ component being the likelihood ratio  
 
@@ -1474,7 +1474,7 @@ plot_error_divergence(cor_data)
 
 Evidently, Chernoff entropy and Jensen-Shannon entropy each covary tightly with the model selection error probability.
 
-We'll encounter related ideas in {doc}`wald_friedman` very soon.
+We'll encounter related ideas in {doc}`wald_friedman <intermediate:wald_friedman>` very soon.
 
 (lrp_markov)=
 ## Markov chains 
@@ -1722,10 +1722,10 @@ markov_results = analyze_markov_chains(P_f, P_g)
 
 ## Related lectures
 
-Likelihood processes play an important role in Bayesian learning, as described in {doc}`likelihood_bayes`
-and as applied in {doc}`odu`.
+Likelihood processes play an important role in Bayesian learning, as described in {doc}`likelihood_bayes <intermediate:likelihood_bayes>`
+and as applied in {doc}`odu <intermediate:odu>`.
 
-Likelihood ratio processes are central to  Lawrence Blume and David Easley's answer to their question "If you're so smart, why aren't you rich?" {cite}`blume2006if`, the subject of the lecture{doc}`likelihood_ratio_process_2`.
+Likelihood ratio processes are central to  Lawrence Blume and David Easley's answer to their question "If you're so smart, why aren't you rich?" {cite}`blume2006if`, the subject of the lecture {doc}`likelihood_ratio_process_2`.
 
 Likelihood ratio processes also appear  in {doc}`advanced:additive_functionals`, which contains another illustration of the **peculiar property** of likelihood ratio processes described above.
 

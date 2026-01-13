@@ -221,7 +221,7 @@ It has several important properties:
 KL divergence plays a central role in statistical inference, including model selection and hypothesis testing.
 
 {doc}`likelihood_ratio_process` describes a link between KL divergence and the expected log likelihood ratio, 
-and the lecture {doc}`wald_friedman` connects it to the test performance of the sequential probability ratio test.
+and the lecture {doc}`wald_friedman <intermediate:wald_friedman>` connects it to the test performance of the sequential probability ratio test.
 
 Let's compute the KL divergence between our example distributions $f$ and $g$.
 
@@ -557,6 +557,6 @@ Thus, MLE is equivalent to minimizing the KL divergence from the empirical distr
 
 This lecture has introduced tools  that we'll encounter elsewhere.
 
-- Other quantecon lectures  that apply  connections between divergence measures and statistical inference include  {doc}`likelihood_ratio_process`, {doc}`wald_friedman`, and {doc}`mix_model`.
+- Other quantecon lectures  that apply  connections between divergence measures and statistical inference include  {doc}`likelihood_ratio_process`, {doc}`wald_friedman <intermediate:wald_friedman>`, and {doc}`mix_model <intermediate:mix_model>`.
 
 - Statistical divergence functions also take center stage in  {doc}`likelihood_ratio_process_2` that studies Lawrence Blume and David Easley's model of  heterogeneous beliefs and financial markets.

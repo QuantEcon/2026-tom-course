@@ -64,7 +64,7 @@ Prior to reading this lecture, you might want to review the following quantecon 
 
 * {doc}`Harrison-Kreps model <harrison_kreps>`
 * {doc}`Likelihood ratio processes <likelihood_ratio_process>`
-* {doc}`Bayesian versus frequentist statistics <likelihood_bayes>`
+* {doc}`Bayesian versus frequentist statistics <intermediate:likelihood_bayes>`
 
 Let's start with some standard imports:
 
@@ -202,7 +202,7 @@ $$
 where $a_i, b_i > 0$ are the prior parameters.
 
 ```{note}
-The  Beta distribution also appears in these  quantecon lectures {doc}`divergence_measures`,  {doc}`likelihood_ratio_process`,  {doc}`odu`.
+The  Beta distribution also appears in these  quantecon lectures {doc}`divergence_measures`,  {doc}`likelihood_ratio_process`,  {doc}`odu <intermediate:odu>`.
 ```
 
 Suppose trader $i$ observes a history of $t$ periods in which a total of $s$ dividends are paid 

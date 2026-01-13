@@ -31,9 +31,22 @@ latex:
       targetname: 2026-tom-course.tex
 
 sphinx:
-  extra_extensions: [sphinx_multitoc_numbering, sphinxext.rediraffe, sphinx_tojupyter, sphinx_exercise, sphinx_togglebutton, sphinx_proof]
+  extra_extensions: [sphinx_multitoc_numbering, sphinxext.rediraffe, sphinx_tojupyter, sphinx_exercise, sphinx_togglebutton, sphinx_proof, sphinx.ext.intersphinx]
   config:
     bibtex_reference_style: author_year
+    intersphinx_mapping: 
+      intro: 
+        - "https://intro.quantecon.org/"
+        - null
+      intermediate:
+        - "https://python.quantecon.org/"
+        - null
+      advanced:
+        - "https://python-advanced.quantecon.org/"
+        - null
+      jax:
+        - "https://jax.quantecon.org/"
+        - null
     nb_merge_streams: true
     nb_mime_priority_overrides: [
        # HTML
