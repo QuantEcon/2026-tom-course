@@ -103,8 +103,6 @@ sphinx:
       og_logo_url: https://assets.quantecon.org/img/qe-og-logo.png
       description: This website presents a set of lectures on quantitative economic modeling for Tom's 2026 course.
       keywords: Python, QuantEcon, Quantitative Economics, Economics, Sloan, Alfred P. Sloan Foundation, Tom J. Sargent, John Stachurski
-      launch_buttons:
-        colab_url             : https://colab.research.google.com
     mathjax3_config:
       tex:
         macros:
