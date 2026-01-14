@@ -96,13 +96,15 @@ sphinx:
       header_organisation_url: https://quantecon.org
       header_organisation: QuantEcon
       repository_url: https://github.com/QuantEcon/2026-tom-course
-      nb_repository_url: https://github.com/QuantEcon/2026-tom-course.notebooks
+      # nb_repository_url: https://github.com/QuantEcon/2026-tom-course.notebooks
       path_to_docs: lectures
       twitter: quantecon
       twitter_logo_url: https://assets.quantecon.org/img/qe-twitter-logo.png
       og_logo_url: https://assets.quantecon.org/img/qe-og-logo.png
       description: This website presents a set of lectures on quantitative economic modeling for Tom's 2026 course.
       keywords: Python, QuantEcon, Quantitative Economics, Economics, Sloan, Alfred P. Sloan Foundation, Tom J. Sargent, John Stachurski
+      # launch_buttons:
+      #   colab_url             : https://colab.research.google.com
     mathjax3_config:
       tex:
         macros:
