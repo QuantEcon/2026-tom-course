@@ -1,12 +1,12 @@
 format: jb-book
 root: intro
 parts:
-- caption: "Lecture 1: Asset Pricing"
+- caption: "Asset Pricing"
   numbered: true
   chapters:
   - file: markov_asset
   - file: lucas_model
-- caption: "Lectures 2-6: Beliefs and Financial Markets"
+- caption: "Beliefs and Financial Markets"
   numbered: true
   chapters:
   - file: divergence_measures
@@ -14,3 +14,7 @@ parts:
   - file: likelihood_ratio_process_2
   - file: harrison_kreps
   - file: morris_learn
+- caption: Other
+  numbered: false
+  chapters:
+  - file: zreferences

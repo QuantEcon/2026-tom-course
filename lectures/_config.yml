@@ -1,5 +1,5 @@
 title: Tom's Course 2026
-author: Thomas J. Sargent & John Stachurski
+author: Thomas J. Sargent
 logo: _static/qe-logo-large.png
 description: This website presents a set of lectures on quantitative economic modeling for Tom's 2026 course.
 
@@ -24,16 +24,19 @@ bibtex_bibfiles:
    - _static/quant-econ.bib
 
 html:
-  baseurl: https://2026-tom-course.quantecon.org/
+  baseurl: https://quantecon.github.io/2026-tom-course/
 
 latex:
    latex_documents:
       targetname: 2026-tom-course.tex
 
+only_build_toc_files: true
+
 sphinx:
   extra_extensions: [sphinx_multitoc_numbering, sphinxext.rediraffe, sphinx_tojupyter, sphinx_exercise, sphinx_togglebutton, sphinx_proof, sphinx.ext.intersphinx]
   config:
     bibtex_reference_style: author_year
+    suppress_warnings: ["mystnb.unknown_mime_type"]
     intersphinx_mapping: 
       intro: 
         - "https://intro.quantecon.org/"
@@ -130,8 +133,8 @@ sphinx:
       index_toc.md: intro.md
     tojupyter_static_file_path: ["source/_static", "_static"]
     tojupyter_target_html: true
-    tojupyter_urlpath: "https://2026-tom-course.quantecon.org/"
-    tojupyter_image_urlpath: "https://2026-tom-course.quantecon.org/_static/"
+    tojupyter_urlpath: "https://quantecon.github.io/2026-tom-course/"
+    tojupyter_image_urlpath: "https://quantecon.github.io/2026-tom-course/_static/"
     tojupyter_lang_synonyms: ["ipython", "ipython3", "python"]
     tojupyter_kernels:
       python3:
