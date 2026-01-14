@@ -91,8 +91,6 @@ sphinx:
       authors:
         - name: Thomas J. Sargent
           url: http://www.tomsargent.com/
-        - name: John Stachurski
-          url: https://johnstachurski.net/
       header_organisation_url: https://quantecon.org
       header_organisation: QuantEcon
       repository_url: https://github.com/QuantEcon/2026-tom-course
