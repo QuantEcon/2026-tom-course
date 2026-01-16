@@ -11,6 +11,7 @@ This repository contains lecture materials for Tom's 2026 course on quantitative
 ### Lectures 2-6: Beliefs and Financial Markets
 - Statistical Divergence Measures
 - Likelihood Ratio Processes
+- Competitive Equilibria with Arrow Securities
 - Heterogeneous Beliefs and Financial Markets
 - Heterogeneous Beliefs and Bubbles
 - Speculative Trading with Bayesian Learning

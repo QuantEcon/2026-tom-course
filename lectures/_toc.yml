@@ -11,6 +11,7 @@ parts:
   chapters:
   - file: divergence_measures
   - file: likelihood_ratio_process
+  - file: ge_arrow
   - file: likelihood_ratio_process_2
   - file: harrison_kreps
   - file: morris_learn
