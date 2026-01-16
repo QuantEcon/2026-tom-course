@@ -282,7 +282,7 @@ Financial wealth turns out to be redundant because it is an exact function of th
 
 This outcome depends critically on there being complete markets in Arrow securities.
 
-For example, it does not prevail in the incomplete markets setting of this lecture {doc}`The Aiyagari Model <aiyagari>`
+For example, it does not prevail in the incomplete markets setting of this lecture {doc}`The Aiyagari Model <intermediate:aiyagari>`
 
 ## Markov Asset Prices
 
