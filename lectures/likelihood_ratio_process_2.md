@@ -51,7 +51,7 @@ We'll study two alternative arrangements:
 The fundamental theorems of welfare economics will apply and assure us that these two arrangements end up producing exactly the same allocation of consumption goods to individuals **provided** that the social planner assigns an appropriate set of **Pareto weights**.
 
 ```{note}
-You can learn about how the two welfare theorems are applied in modern macroeconomic models in {doc}`this lecture on a planning problem <cass_koopmans_1>` and {doc}`this lecture on a related competitive equilibrium <cass_koopmans_2>`.   {doc}`This quantecon lecture <ge_arrow>` presents a recursive formulation of  complete markets models with homogeneous beliefs.
+You can learn about how the two welfare theorems are applied in modern macroeconomic models in {doc}`this lecture on a planning problem <intermediate:cass_koopmans_1>` and {doc}`this lecture on a related competitive equilibrium <intermediate:cass_koopmans_2>`.   {doc}`This quantecon lecture <ge_arrow>` presents a recursive formulation of  complete markets models with homogeneous beliefs.
 ```
 
 
@@ -417,7 +417,7 @@ Two fundamental welfare theorems for general equilibrium models lead us to antic
 
 ```{note}
 For the two welfare theorems and their history, see   <https://en.wikipedia.org/wiki/Fundamental_theorems_of_welfare_economics>.
-Again, for applications to a classic  macroeconomic growth  model, see {doc}`this lecture on a planning problem <cass_koopmans_1>`  and {doc}`this lecture on a related competitive equilibrium <cass_koopmans_2>` 
+Again, for applications to a classic  macroeconomic growth  model, see {doc}`this lecture on a planning problem <intermediate:cass_koopmans_1>`  and {doc}`this lecture on a related competitive equilibrium <intermediate:cass_koopmans_2>` 
 ```
 
 Such a connection prevails for our model.  
@@ -835,7 +835,7 @@ Complete markets models with homogeneous beliefs, a kind often used in macroecon
 
 {cite}`blume2018case` discuss a paternalistic  case against complete markets.  They study the consequences of assuming that a social planner  disregards  individuals preferences in the sense that it ignores  the subjective belief components of their preferences and replaces it with the social planner's beliefs about probabilities.  
 
-Likelihood processes play an important role in Bayesian learning, as described in {doc}`likelihood_bayes` and as applied in {doc}`odu`.
+Likelihood processes play an important role in Bayesian learning, as described in {doc}`intermediate:likelihood_bayes` and as applied in {doc}`intermediate:odu`.
 
 Likelihood ratio processes appear again in {doc}`advanced:additive_functionals`. 
 
@@ -940,7 +940,7 @@ $$
 In this exercise, we'll study two agents, each of whom updates its posterior probability as
 data arrive.
 
- * each agent applies Bayes' law in the way studied  in {doc}`likelihood_bayes`.
+ * each agent applies Bayes' law in the way studied  in {doc}`intermediate:likelihood_bayes`.
 
 The following  two models are on the table
 
